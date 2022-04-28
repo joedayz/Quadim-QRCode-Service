@@ -1,4 +1,4 @@
-package ai.quadim.qrcodegen;
+package ai.quadim.qrbuilder;
 
 import io.nayuki.qrcodegen.QrCode;
 import io.nayuki.qrcodegen.QrSegment;
@@ -14,7 +14,7 @@ import java.util.Objects;
 import javax.imageio.ImageIO;
 import org.junit.Test;
 
-public class QRCodeGenTest {
+public class QRCodeGenNayukiTest {
 
   @Test
   public void basicDemo() throws IOException {

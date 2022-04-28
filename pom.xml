@@ -14,12 +14,44 @@
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/io.nayuki/qrcodegen -->
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.4</version>
+    </dependency>
+
+    <!-- ZXING barcode lib -->
+
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.4.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>
+        com.google.zxing</groupId>
+      <artifactId>javase</artifactId>
+      <version>3.4.1</version>
+    </dependency>
+
+
+
     <dependency>
       <groupId>io.nayuki</groupId>
       <artifactId>qrcodegen</artifactId>
       <version>1.8.0</version>
     </dependency>
+
+    <!--Test libs-->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.8</version>
+      <scope>test</scope>
+    </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
